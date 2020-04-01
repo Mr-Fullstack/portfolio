@@ -4,8 +4,10 @@ my portfolio of the year 2020
 1. Surfbot   
 
 ### Surfbot
-**repo:** [GitHub](http://github.com) 
-**demo**[Surfbot](https://mr-fullstack.github.io/portfolio/surfbot/)  
+**repo:** [GitHub](http://github.com)
+  
+**demo:**[Surfbot](https://mr-fullstack.github.io/portfolio/surfbot/) 
+  
 **technologies used:**  
 * HTML5
 * CSS3
