@@ -4,8 +4,8 @@ my portfolio of the year 2020
 1. Surfbot   
 
 ### Surfbot
-**repo** http://github.com  
-[GitHub](http://github.com)   
+**repo:**   
+[GitHub](http://github.com)     
 **technologies used:**  
 * HTML5
 * CSS3
