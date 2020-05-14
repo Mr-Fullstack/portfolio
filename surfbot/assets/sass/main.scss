@@ -105,7 +105,8 @@ $xs:1920px;
     }
 
     & form{
-        
+        width: 450px;
+        max-width: 100%;
         & input{
             font-family: Nunito;
             font-style: normal;
@@ -113,11 +114,10 @@ $xs:1920px;
             font-size: 18px;
             outline: none;
         }
+
        & input[type="submit"]{
-        width: 185px;
+        width: 35%;
         height: 50px;
-        left: 1030px;
-        top: 380px;
         border: none;
         background: #EE2211;
         border-radius: 0px 5px 5px 0px;
@@ -137,7 +137,7 @@ $xs:1920px;
         }
        }
        & input[type="email"]{
-        width: 270px;
+        width: 75%;
         height: 50px;
         left: 745px;
         top: 380px;
@@ -479,6 +479,7 @@ ul.alternativas li:first-child:after,
         & label{
             text-align: left;
             width: 470px;
+            max-width: 100%;
             font-family: Nunito;
             font-style: normal;
             font-weight: bold;
@@ -494,6 +495,7 @@ ul.alternativas li:first-child:after,
             border-radius: 5px;
             height: 40px;
             width: 230px;
+            max-width: 100%;
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -517,6 +519,7 @@ ul.alternativas li:first-child:after,
 
        & input:not([type="submit"]){
             width: 470px;
+            max-width: 100%;
             height: 50px;
             height: 50px !important;
             background: #EFF4F9 !important;
@@ -551,6 +554,7 @@ ul.alternativas li:first-child:after,
 
         & textarea{
             width: 470px;
+            max-width: 100%;
             height: 180px !important;
             background: #EFF4F9 !important;
             box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4) !important;
@@ -678,4 +682,38 @@ footer{
     .container {
         max-width: 1280px;
     }
+}
+
+@media (max-width: 769px){
+
+    .bar {
+
+        .row {
+
+            span {
+                width: 100%;
+                text-align: center;
+            }
+      
+          }
+    }
+    .contato{
+
+        .trace::after {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 595px){
+    .mapa {
+       position: relative; 
+       bottom: 0%; 
+       left: 0%;
+
+       & ul.alternativas{
+        position: static; 
+       }
+    }
+
 }
