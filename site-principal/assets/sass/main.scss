@@ -1,0 +1,22 @@
+body{
+    background: rgba(0, 40, 235, 0.749);
+    color: #FFF;
+    height: 100vh;
+    overflow: hidden;
+}
+header{
+    padding: 1rem;
+}
+
+.background{
+    background: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    filter: blur(5px);
+    opacity: 0.3;
+}
