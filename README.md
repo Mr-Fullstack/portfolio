@@ -1,5 +1,5 @@
 # portfolio
-my portfolio of the year 2020  
+
 ## Projects list: 
 1. Surfbot   
 
